@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Rectangle?>
+
+<?import javafx.geometry.Insets?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.kazza.gatoraccess.loginController"
+          stylesheets="@style.css"  style="-fx-background-color:#f0f3ff;">
+    <HBox GridPane.columnIndex="0" GridPane.rowIndex="0">
+        <StackPane>
+            <Rectangle fill="cadetblue" width="500" height="75"/>
+            <Label text="Gator Access 1.5" textFill="white" id="top-banner-gator"/>
+        </StackPane>
+        <padding>
+            <Insets bottom="80"/>
+        </padding>
+    </HBox>
+
+    <VBox GridPane.columnIndex="0" GridPane.rowIndex="1" alignment="CENTER" spacing="40">
+        <HBox>
+            <padding>
+                <Insets left="75"/>
+            </padding>
+            <Label text="Username: " style="-fx-text-fill:black;"/>
+            <TextField fx:id="usernameField" minWidth="225" promptText="Enter your username"/>
+        </HBox>
+
+        <HBox>
+            <padding>
+                <Insets left="75"/>
+            </padding>
+            <Label text="Password:  " style="-fx-text-fill:black;"/>
+            <PasswordField fx:id="passwordField" minWidth="225" promptText="Enter your password"/>
+        </HBox>
+
+        <HBox>
+            <VBox minWidth="310">
+                <padding>
+                    <Insets left="30"/>
+                </padding>
+                <Label fx:id="errorLabel" alignment="CENTER" style="-fx-text-fill:black;"/>
+            </VBox>
+            <!--<padding>-->
+                <!--<Insets left="310"/>-->
+            <!--</padding>-->
+            <VBox minWidth="190">
+                <Button fx:id="loginButton" text="Login" onAction="#onLoginButtonClicked" id="enter-msg-static"/>
+            </VBox>
+        </HBox>
+
+        <HBox alignment="CENTER">
+            <Label text="Don't have an account?      " style="-fx-text-fill:black;"/>
+            <Button fx:id="signUpButton" text="Sign Up" id="enter-msg-static2" onAction="#onSignUpButtonClicked"/>
+        </HBox>
+    </VBox>
+
+</GridPane>

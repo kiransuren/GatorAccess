@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 5, 2018, 10:27:54 AM
+    Author     : s300052062
+*/
+
+
+.root{
+    -fx-background-color: #3E909E;
+    -fx-font-size: 12pt;
+}
+
+
+/*SEARCH BUTTON TUTOR*/
+#search-tutor-static{
+    -fx-background-color: #425b84;
+    -fx-font-size: 24px;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: white;
+
+}
+
+#tutor-search-textfield{
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 18pt;
+}
+
+#display-message{
+    -fx-font-size: 24pt;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: white;
+
+}
+
+#name-label{
+    -fx-font-size: 60pt;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: white;
+
+}
+#main-tutor-profile-label{
+    -fx-font-size: 28pt;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: white;
+
+}
+
+
+#list-v{
+
+}
+
+/*STATIC SIDEBAR BUTTON*/
+#sidebar-button-static{
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 0;
+    -fx-background-color: #425b84;
+    -fx-font-size: 36px;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: white;
+
+}
+
+
+/*SELECTED BUTTON */
+#sidebar-button-selected{
+    -fx-background-color: #3d547a;
+}
+
+

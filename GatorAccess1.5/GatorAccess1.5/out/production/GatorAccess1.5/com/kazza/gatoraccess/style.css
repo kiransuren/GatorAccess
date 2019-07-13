@@ -1,0 +1,127 @@
+/*
+Style sheet for GatorAccess FXML
+
+Created on the 5th of October 2018
+By Kiran Surendran
+Quentiam
+
+*/
+
+/*PRIMATIVE STYLING*/
+.root{
+    /*-fx-background-color: #3E909E;*/
+    -fx-background-color: #F3F2F3;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: black;
+    -fx-font-size: 12pt;
+
+}
+.button{
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: white;
+}
+.label{
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: black;
+    -fx-font-size: 12pt;
+}
+
+#scrollpane-style{
+    -fx-background: #F3F2F3;
+    -fx-border-color: #F3F2F3;
+}
+
+#post-style{
+    -fx-border-color: black;
+}
+
+#primary-post-style{
+    -fx-background-color: #DCDCDB;
+}
+
+#secondary-post-style{
+    -fx-background-color: #DBDBDC;
+}
+
+#new-post-style{
+    -fx-background-color: #425b84;
+    -fx-font-size: 24px;
+}
+
+
+/*STATIC SIDEBAR BUTTON*/
+#sidebar-button-static{
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 0;
+    -fx-background-color: #425b84;
+    -fx-font-size: 36px;
+}
+
+/*TUTORSEARCH WINDOW*/
+#search-tutor-static{
+    -fx-background-color: #425b84;
+    -fx-font-size: 24px;
+}
+
+#enter-msg-static{
+    -fx-background-color: #425b84;
+    -fx-font-size: 18px;
+}
+
+#enter-msg-static2{
+    -fx-background-color: #425b84;
+    -fx-font-size: 14px;
+}
+
+#name-message-banner{
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 32pt;
+}
+
+/*LOGIN WINDOW*/
+#login-v{
+    -fx-background-colour: white;
+}
+#top-banner-gator{
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 24pt;
+    -fx-text-fill: white;
+}
+#banner-login{
+    -fx-font-size: 16pt;
+}
+#fd-df{
+    -fx-text-fill: black;
+    -fx-font-size: 24pt;
+}
+
+
+/*TEXTFIELDS*/
+#tutor-search-textfield{
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 18pt;
+}
+
+
+/*LABELS*/
+#new-acc-title{
+    -fx-text-fill: white;
+    -fx-font-size: 36pt;
+}
+#display-message{
+    -fx-font-size: 24pt;
+}
+
+#name-label{
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 60pt;
+}
+#main-tutor-profile-label{
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 18pt;
+}
+
+#new-post-label{
+    -fx-font-size: 24pt;
+    -fx-text-fill: black;
+}

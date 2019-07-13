@@ -1,0 +1,31 @@
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane fx:controller="sample.profileController"
+            xmlns:fx="http://javafx.com/fxml"
+            stylesheets="@style.css">
+
+
+    <left>
+        <VBox>
+            <padding>
+                <Insets right="50"/>
+            </padding>
+            <Button fx:id="feedButton" text = "Feed" prefHeight="250" prefWidth="245" onAction="#moveToTab" id="sidebar-button-static"/>
+            <Button fx:id = "messageButton" text = "Messages" prefHeight="250" prefWidth="245" onAction="#moveToTab" id="sidebar-button-static"/>
+            <Button fx:id="tutorButton" text = "TutorSearch" prefHeight="250" prefWidth="245" onAction="#moveToTab" id="sidebar-button-static"/>
+            <Button fx:id="profileButton" text = "Profile" prefHeight="250" prefWidth="245" onAction="#moveToTab" id="sidebar-button-static"/>
+        </VBox>
+    </left>
+
+
+    <center>
+        <VBox>
+            <Label text="PROFILE WINDOW"/>
+        </VBox>
+    </center>
+
+</BorderPane>

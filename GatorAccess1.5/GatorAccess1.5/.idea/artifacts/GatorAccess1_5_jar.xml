@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GatorAccess1.5:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GatorAccess1_5_jar</output-path>
+    <root id="archive" name="GatorAccess1.5.jar">
+      <element id="module-output" name="GatorAccess1.5" />
+      <element id="directory" name="resources">
+        <element id="file-copy" path="$PROJECT_DIR$/src/resources/currUserFile.txt" />
+        <element id="file-copy" path="$PROJECT_DIR$/src/resources/peerTutorsData.txt" />
+        <element id="file-copy" path="$PROJECT_DIR$/src/resources/postData.txt" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 5, 2018, 10:27:54 AM
+    Author     : s300052062
+*/
+
+
+.root{
+    -fx-background-color: #3E909E;
+    -fx-font-size: 36pt;
+}
+
+.label{
+    -fx-text-fill: #57CADD;
+}
+
+/*DEFAULT BUTTON*/
+.button{
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 0;
+    -fx-padding: 75 80 75 80;
+    -fx-background-color: #425b84;
+    -fx-font-size: 36px;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: white;
+}
+
+/*STATIC BUTTON*/
+.feed-button-static{
+    -fx-padding: 75px 114px 56px 50px;
+}
+.msg-button-static{
+    -fx-padding: 75px 30px 56px 50px;
+}
+.tut-button-static{
+    -fx-padding: 75px 44px 56px 50px;
+}
+.prof-button-static{
+    -fx-padding: 75px 96px 56px 50px;
+}
+
+
+/*SELECTED BUTTON */
+.feed-button-selected{
+    -fx-background-color: #3d547a;
+    -fx-padding: 75px 114px 56px 50px;
+}
+.msg-button-selected{
+    -fx-background-color: #3d547a;
+    -fx-padding: 75px 30px 56px 50px;
+}
+
+.tut-button-selected{
+    -fx-background-color: #3d547a;
+    -fx-padding: 75px 44px 56px 50px;
+}
+
+.prof-button-selected{
+    -fx-background-color: #3d547a;
+    -fx-padding: 75px 96px 56px 50px;
+}
+
+
+
+
+.msg-list{
+    -fx-font-size: 24px;
+}
+
+
+.tutor-search-bar{
+    -fx-font-size: 24px;
+    -fx-alignemnt: top-center;
+}
+
+.searchButton{
+    -fx-padding: 0 10 0 10;
+    -fx-background-radius: 4;
+}

@@ -1,0 +1,73 @@
+
+<!--JavaFX Imports-->
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ComboBox?>
+
+<!--Main BorderPane Layout-->
+<BorderPane fx:controller="com.kazza.gatoraccess.profileController"
+            xmlns:fx="http://javafx.com/fxml"
+            stylesheets="@style.css">
+
+    <!--Side Menu Bar-->
+    <left>
+        <VBox>
+            <padding>
+                <Insets right="50"/>
+            </padding>
+            <Button fx:id="feedButton" text = "Feed" prefHeight="250" prefWidth="245" onAction="#moveToTab" id="sidebar-button-static"/>
+            <Button fx:id = "messageButton" text = "Messages" prefHeight="250" prefWidth="245" onAction="#moveToTab" id="sidebar-button-static"/>
+            <Button fx:id="tutorButton" text = "TutorSearch" prefHeight="250" prefWidth="245" onAction="#moveToTab" id="sidebar-button-static"/>
+            <Button fx:id="profileButton" text = "Profile" prefHeight="250" prefWidth="245" onAction="#moveToTab" id="sidebar-button-static"/>
+        </VBox>
+    </left>
+
+    <!--Main Output-->
+    <center>
+        <VBox spacing="40">
+            <padding>
+                <Insets top="60"/>
+            </padding>
+            <Label text="Create a new account" id="new-acc-title"/>
+            <VBox spacing="40" fillWidth="false">
+                <TextField fx:id="nameField" prefWidth="600" prefHeight="30" promptText="Enter Name"/>
+                <TextField fx:id="gradeField" prefWidth="600" prefHeight="30" promptText="Enter Grade"/>
+                <TextField fx:id="emailField" prefWidth="600" prefHeight="30" promptText="Enter Email Address"/>
+                <TextField fx:id="pnumberField" prefWidth="600" prefHeight="30" promptText="Enter Phone Number"/>
+            </VBox>
+
+            <HBox spacing="30" >
+                <padding>
+                    <Insets right="60"/>
+                </padding>
+                <ComboBox fx:id="courseComboBox1">
+                </ComboBox>
+                <ComboBox fx:id="courseComboBox2">
+                </ComboBox>
+                <ComboBox fx:id="courseComboBox3">
+                </ComboBox>
+            </HBox>
+
+            <HBox spacing="30">
+                <padding>
+                    <Insets right="60"/>
+                </padding>
+                <ComboBox fx:id="courseComboBox4">
+                </ComboBox>
+                <ComboBox fx:id="courseComboBox5">
+                </ComboBox>
+                <ComboBox fx:id="courseComboBox6">
+                </ComboBox>
+            </HBox>
+
+            <Button text="Create New Account" id ="search-tutor-static" onAction="#createNewAccount"/>
+
+        </VBox>
+    </center>
+
+</BorderPane>
